@@ -21,5 +21,7 @@
     
         </div>
 
+        {{ $notes->links() }}
+
     </div>
 </x-layout>
