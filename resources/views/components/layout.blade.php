@@ -17,6 +17,11 @@
 </head>
 
 <body>
+    @session('message')
+        <div class="success-message">
+            {{ session('message') }}
+        </div>
+    @endsession
    {{ $slot }} 
 </body>
 
